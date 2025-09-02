@@ -1,0 +1,18 @@
+Crie um programa que leia 6 números inteiros e no final mostre quantos deles
+são pares e quantos são ímpares.
+
+->Trajeto: Pares = 0
+           Impares = 0
+           N = 0
+
+           Para c = 1 ate c = 6 Faça
+                Leia N
+                Se N % 2 == 0
+                    Pares = Pares + 1
+                Senao
+                    Impares = Impares + 1
+                Fimse
+           Fimpara
+
+           Imprima Pares
+           Imprima Impares

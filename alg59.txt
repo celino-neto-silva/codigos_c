@@ -1,0 +1,11 @@
+Escreva um programa que mostre na tela a seguinte contagem:
+6 7 8 9 10 11 Acabou!
+
+->Trajeto:
+    Imprima 2
+    c = 6
+
+    Enquanto c <= 11 Faça
+        Imprima c
+        c = c + 1
+    Fimenquanto

@@ -1,0 +1,8 @@
+ O programa acima vai ter um problema quando digitarmos o primeiro valor
+maior que o último. Resolva esse problema com um código que funcione em qualquer
+situação.
+
+->Objetivo: Exibir uma contagem que tem: Inicio, Fim e Passo definidos pelo usuário.
+->Parametrização: - Se o numero de Incio > Fim = Iteração Negativa
+                  - Se o numero de Incio < Fim = Iteração Positiva
+->Trajeto:  

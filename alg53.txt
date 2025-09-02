@@ -1,0 +1,27 @@
+Crie um jogo de JoKenPo (Pedra-Papel-Tesoura)
+
+->Parametrização: - 2 jogadores
+                  - Pedra ganha de tesoura
+                  - Tesoura ganha de papel
+                  - Papel ganha de pedra
+                  - Há a possibilidade de empate
+
+->Trajeto:  Leia jogada1
+            Leia jogada2
+
+            Imprima "[1] Pedra"
+            Imprima "[2] Tesoura"
+            Imprima "[3] Papel"
+
+            Se jogada1 = 1 e jogada2 = 3 Entao
+                jogada2 venceu
+
+            Senao se jogada1 = 1 e jogada2 = 2 Entao
+                jogada1 venceu
+
+            Senao se jogada1 = 2 e jogada2 = 3 Entao
+                jogada2 venceu
+
+            Senao
+                Empate
+            Fimse

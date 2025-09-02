@@ -1,0 +1,25 @@
+Escreva um programa para aprovar ou não o empréstimo bancário para a compra
+de uma casa. O programa vai perguntar o valor da casa, o salário do comprador e
+em quantos anos ele vai pagar. Calcule o valor da prestação mensal, sabendo que
+ela não pode exceder 30% do salário ou então o empréstimo será negado.
+
+->Objetivo: Aprovar ou Negar um empréstimo
+->Parametrização: -Valor da casa
+                  -Salário do comprador
+                  -Anos para pagar
+                  -Prestação Mensal menor ou igual a 30% do salário do comprador
+
+->Trajeto: Leia valor_casa
+           Leia salario
+           Leia anos_para_pagar
+
+           limite = ((salario / 100) * 30)
+
+           parcela = valor_casa / (anos_para_pagar * 12)
+
+           Se parcela > limite Entao
+                Imprima "Negado"
+           Senao
+                Imprima "Aprovado"
+                Imprima Qtd de Parcelas
+           Fimse

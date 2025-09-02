@@ -1,0 +1,21 @@
+[DESAFIO] Refaça o algoritmo 25, acrescentando o recurso de mostrar que tipo
+de triângulo será formado:
+ - EQUILÁTERO: todos os lados iguais
+ - ISÓSCELES: dois lados iguais
+ - ESCALENO: todos os lados diferentes
+
+ ->Trajeto: Leia r1
+            Leia r2
+            Leia r3
+
+            Se r1 > (r2  + r3) ou r2 > (r1  + r3) ou r3 > (r1  + r2) Entao
+                Imprima "Inválido"
+            Senao
+                Se r1 = r2 e r2 = r3 Entao
+                    Imprima "Equilátero"
+                Se r1 = r2 ou r2 = r3 ou r3 = r1 Entao
+                    Imprima "Isósceles"
+                Senao
+                    Imprima "Escaleno"
+                Fimse
+            Fimse

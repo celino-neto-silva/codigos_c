@@ -1,0 +1,10 @@
+Faça um algoritmo que mostre na tela a seguinte contagem:
+10 9 8 7 6 5 4 3 Acabou!
+
+->Trajeto:
+    c = 10
+
+    Enquanto(c >= 3) faca
+        Imprima c
+        c = c - 1
+    Fimenquanto

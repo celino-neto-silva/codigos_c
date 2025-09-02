@@ -1,0 +1,32 @@
+Desenvolva um programa que leia o nome de um funcionário, seu salário,
+quantos anos ele trabalha na empresa e mostre seu novo salário, reajustado de
+acordo com a tabela a seguir:
+ - Até 3 anos de empresa: aumento de 3%
+ - entre 3 e 10 anos: aumento de 12.5%
+ - 10 anos ou mais: aumento de 20%
+
+ ->Objetivo: Informar o novo salário de um funcionário
+
+ ->Parametrização: - Ler nome
+                   - Ler salario
+                   - Ler quantos anos trabalhados
+                   - Até 3 anos de empresa: aumento de 3%
+                   - Entre 3 e 10 anos: aumento de 12.5%
+                   - 10 anos ou mais: aumento de 20%
+
+ ->Trajeto: Leia nome
+            Leia salário
+
+            novo salário = 0
+
+            Leia anos de empresa
+
+            Se anos de empresa >= 10 Entao
+                novo salario = ((salario / 100)*20) + salario
+            Senao se anos de empresa < 10 e anos de empresa > 3 Entao
+                novo salario = ((salario / 100)*12.5) + salario
+            Senao
+                novo salario = ((salario / 100)*3) + salario
+            Fimse
+
+            Imprima novo salario

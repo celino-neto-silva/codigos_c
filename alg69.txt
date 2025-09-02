@@ -1,0 +1,9 @@
+ Faça um programa que leia 7 números inteiros e no final mostre o somatório
+entre eles.
+
+->Trajeto:  Soma = 0
+            Num = 0
+            Para c = 1 ate c= 7 Faça
+                Leia num
+                Soma = Soma + Num
+            Fimpara

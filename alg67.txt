@@ -1,0 +1,13 @@
+Crie um programa que calcule e mostre na tela o resultado da soma entre 6 +
+8 + 10 + 12 + 14 + ... + 98 + 100.
+
+->Objetivo: Informar o resultado da soma de todos os valores pares entre 6 e 100
+->Parametrização: -Começar a partir do 6
+                  -Terminar no 100
+                  -Iterar por 2 exibindo só os pares
+->Trajeto: Soma = 0
+           Para c = 6 ate 100 passo 2 Faça
+                Soma = Soma + c
+           Fimpara
+
+           Imprima Soma

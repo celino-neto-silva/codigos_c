@@ -1,0 +1,9 @@
+Crie um aplicativo que mostre na tela a seguinte contagem:
+0 3 6 9 12 15 18 Acabou!
+
+->Trajeto:  c = 0
+            Enquanto c <= 18 Faca
+                Imprima c
+                c = c + 3
+            Fimenquanto
+

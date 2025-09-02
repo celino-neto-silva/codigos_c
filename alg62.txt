@@ -1,0 +1,10 @@
+Desenvolva um programa que mostre na tela a seguinte contagem:
+100 95 90 85 80 ... 0 Acabou!
+
+->Trajeto:  c = 100
+
+            Enquanto c >= 0 Faca
+                Imprima c
+                c = c - 5;
+            Fimenquanto
+

@@ -1,0 +1,32 @@
+Um programa de vida saudável quer dar pontos atividades físicas que podem
+ser trocados por dinheiro. O sistema funciona assim:
+ - Cada hora de atividade física no mês vale pontos
+ - até 10h de atividade no mês: ganha 2 pontos por hora
+ - de 10h até 20h de atividade no mês: ganha 5 pontos por hora
+ - acima de 20h de atividade no mês: ganha 10 pontos por hora
+ - A cada ponto ganho, o cliente fatura R$0,05 (5 centavos)
+
+->Objetivo: Coletar a quantidade de pontos do cliente, trocar pontos por dinheiro
+
+->Parametrização:
+ - Cada hora de atividade física no mês vale pontos
+ - até 10h de atividade no mês: ganha 2 pontos por hora
+ - de 10h até 20h de atividade no mês: ganha 5 pontos por hora
+ - acima de 20h de atividade no mês: ganha 10 pontos por hora
+ - A cada ponto ganho, o cliente fatura R$0,05 (5 centavos)
+
+->Trajeto: Leia qtd_horas
+
+           pontos = 0
+
+           Se qtd_horas <= 10 Entao
+                pontos = (qtd_horas * 3) * 2
+           Senao se qtd_horas > 10 e qtd_horas <= 20 Entao
+                pontos = (qtd_horas * 3) * 5
+           Senao
+                pontos = (qtd_horas * 3) * 10
+           Fimse
+
+           valor = pontos * 0.05
+
+           Imprima Valor
