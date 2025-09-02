@@ -1,0 +1,56 @@
+Faça um algoritmo que leia o ano em que uma pessoa nasceu, imprima na tela quantos anos, meses e dias essa pessoa ja viveu. Leve em
+consideração o ano com 365 dias e o mês com 30 dias.
+(Ex: 5 anos, 2 meses e 15 dias de vida)
+
+->Objetivo: Informar quantos anos, meses e dias alguma pessoa viveu
+
+->Parametrização: -Considerar um ano igual a 365 dias.
+                  -Considerar um mes igual a 30 dias.
+
+->Trajeto:  Ler a data de nascimento do user (dia, mes, ano)
+            Ler a data atual (dia, mes, ano)
+
+            Var anos = ano atual - ano de nascimento
+            Var meses = 0
+            Var dias = 0
+
+            se mes atual < mes de nascimento
+                meses = (mes atual - mes de nascimento) + 12
+            senao se meses >= mes de nascimento
+                meses = mes atual - mes de nascimento
+            fimse
+
+            se dia atual < dia de nascimento
+                dias = dia atual
+            senao se dia atual >= dia de nascimento
+                dias = dia atual - dia de nascimento
+            fimse
+
+            se dia atual < dia de nascimento ou mes atual < mes de nascimento
+                anos = anos - 1
+            fimse
+
+            imprima "Voce tem (anos), (meses) e (dias)"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ex: data de nascimento = 15/05/2005
+    data atual         = 20/01/2025
+    dias               = 5
+    meses              =    3
+    anos               =       20

@@ -1,0 +1,19 @@
+Faça um algoritmo que pergunte a distância que um passageiro deseja
+percorrer em Km. Calcule o preço da passagem, cobrando R$0.50 por Km para
+viagens até 200Km e R$0.45 para viagens mais longas.
+
+->Objetivo: Informar o preço da passagem
+->Parametrização: -Preco é em função da quilometragem
+                  -Quilometragem acima de 200 = 0.50 por km
+                  -Quilometragem até 200 = 0.45 por km
+
+->Trajeto: Leia quilometros
+           Preco_Passagem = 0
+
+           Se quilometros < 200
+                Preco_Passagem = quilometros * 0.45
+           Senao
+                Preco_Passagem = quilometros * 0.50
+           Fimse
+
+           Imprima Preco_Passagem

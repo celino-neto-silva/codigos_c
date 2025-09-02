@@ -1,0 +1,19 @@
+Crie um programa que leia o nome e o salário de um funcionário, mostrando no
+final uma mensagem.
+Ex:
+Nome do Funcionário: Maria do Carmo
+Salário: 1850,45
+O funcionário Maria do Carmo tem um salário de R$1850,45
+
+->Objetivo: Exibir o nome e o salário de um funcionário
+->Parametrização: -Ler o salário em tipo real
+->Trajeto: Var caractere nome
+           Var real salario = 0
+
+           Imprima "Nome:"
+           Leia nome
+
+           Imprima "Salário".
+           Leia salário
+
+           Imprima "Nome",nome,"e salario",salario

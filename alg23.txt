@@ -1,0 +1,21 @@
+Faça um algoritmo que efetue o cálculo do salário líquido de um professor. As informações fornecidas serão:
+valor da hora aula, número de aulas lecionadas no mês e percentual de desconto do INSS. Imprima na tela o salário líquido final.
+
+->Objetivo: Informar qual é o salario liquido de um professor
+->Parametrização: -Valor hora aula
+                  -Qtd de aulas lecionadas por mes
+                  -Percentagem de desconto do INSS = 34%
+
+->Trajeto: Var real hora_aula
+           Var inteiro qtd_aulas
+           Var inteiro percentual = 34
+           Var real salario
+
+           Leia hora_aula
+           Leia qtd_aulas
+
+           salario = qtd_aulas x hora_aula
+
+           salario = salario - ((salario%100)x34)
+
+           imprima salario

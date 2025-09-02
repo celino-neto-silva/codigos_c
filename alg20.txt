@@ -1,0 +1,18 @@
+Faça um algoritmo que receba um valor inteiro e imprima na tela a sua tabuada.
+
+->Objetivo: Exibir a tabuada de um número inserido pelo usuário
+->Parametrização: -Número maior que 0
+                  -Número inteiro
+
+->Trajeto:      Var inteiro num =  -1
+
+                Repita
+                    Leia num
+                    Se num = 0
+                        interrompa
+                    Fimse
+                    Para c = 1 ate 10 faca
+                        imprima "(num) X (c)"
+                    Fimpara
+                    imprima "Digite 0 para Encerrar"
+                Ate(num = 0)

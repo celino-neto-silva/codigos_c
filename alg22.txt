@@ -1,0 +1,17 @@
+Faça um algoritmo que leia dois valores inteiros A e B, imprima na tela o quociente e o resto da divisão inteira entre eles
+
+->Objetivo: Informar o quociente e o resto de uma divisão inteira
+->Parametrização: -Valores diferentes de 0
+                  -Valores positivos
+                  -Dois valores
+->Trajeto: Var real A
+           Var real B
+
+           Leia A
+           Leia B
+
+           Var real resto = A % B
+           Var real quociente = A // B
+
+           Imprima resto
+           Imprima quociente

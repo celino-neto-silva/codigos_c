@@ -1,0 +1,5 @@
+Crie um programa que leia o preço de um produto, calcule e mostre o seu
+PREÇO PROMOCIONAL, com 5% de desconto.
+
+->Objetivo: Informar o preço de um produto com o desconto
+->Parametrização: -Desconto 5%

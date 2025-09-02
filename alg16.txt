@@ -1,0 +1,23 @@
+Faça um algoritmo que leia três valores que representam os três lados de um triângulo e verifique se são válidos, determine se o triângulo é
+equilátero, isósceles ou escaleno
+
+->Objetivo: Informar se as medidas dadas pelo usuário formam um triângulo e que tipo de triângulo elas formam.
+
+->Parametrização: -Condição de Existencia: cada lado DEVE ser menor que a soma dos outros dois
+                  -Ler valores em reais
+                  -Ler 3 valores
+                  -Equilatero todos os lados devem ser iguais
+                  -Isosceles dois dos lados são iguais
+                  -Escaleno todos os lados são diferentes
+
+->Trajeto:  Ler lado A, lado B e lado C
+            se a > b + c ou b > a + c ou c > a + b
+                imprima invalido
+
+            se a = b e a = c
+                imprima equilatero
+            senao se a = b ou a = c ou b = c
+                imprima isosceles
+            senao
+                escaleno
+

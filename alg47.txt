@@ -1,0 +1,14 @@
+[DESAFIO] Crie um programa que leia o tamanho de três segmentos de reta.
+Analise seus comprimentos e diga se é possível formar um triângulo com essas
+retas. Matematicamente, para três segmentos formarem um triângulo, o comprimento
+de cada lado deve ser menor que a soma dos outros dois.
+
+->Trajeto: Leia Reta1
+           Leia Reta2
+           Leia Reta3
+
+           Se Reta1 <= (Reta2 + Reta3) ou Reta2 <= (Reta1 + Reta3) ou Reta3 <= (Reta1 + Reta2)
+                Imprima "Não se forma um Triângulo"
+           Senao
+                Imprima "Se Forma Um Triângulo"
+           Fimse

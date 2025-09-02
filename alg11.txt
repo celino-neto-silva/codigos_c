@@ -1,0 +1,35 @@
+Faça um algoritmo que leia quatro notas obtidas por um aluno, calcule a média das nota obtidas, imprima na tela o nome do aluno e
+se o aluno foi aprovado ou reprovado. Para o aluno ser considerado aprovado sua média final deve ser maior ou igual a 7
+
+->Objetivos: Informar se um aluno foi aprovado ou reprovado
+
+->Parametrização: -ler 4 notas
+                  -ler em numero real
+                  -ler o nome do aluno
+                  -Verificar se é maior que 7 para estar aprovado
+                  -Se for menor que 7 informar reprovação
+
+->Trajeto:  criar uma variavel composta para 4 numeros reais
+            criar uma variavel para a capacidade da estrutura
+            criar uma variavel para soma
+            criar uma variavel para media
+            criar uma variavel para o nome
+            criar uma variavel para o status
+
+            ler as notas
+            ler o nome
+
+            somar as notas
+            dividir a soma pela numero de notas
+            armazenar na variavel media o resultado da divisao
+
+            verificar se é maior ou igual a 7
+            se sim, aluno aprovado guardar status
+            se nao, aluno reprovado guardar status
+
+            exibir nome
+            exibir media
+            exibir status
+
+
+

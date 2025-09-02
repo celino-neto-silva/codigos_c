@@ -1,0 +1,31 @@
+Faça um programa que leia as duas notas de um aluno em uma matéria e mostre
+na tela a sua média na disciplina.
+
+->Objetivo: Informar a média de um aluno
+
+->Parametrização: -Ler 2 notas
+                  -Nota <= 20
+                  -Nota >= 0
+
+->Trajeto:
+    Inicioalgoritmo
+           Leia nota1
+
+           Se nota1 < 0 ou nota1 > 20 entao
+                Repita
+                    Leia nota1
+                Ate nota1 > 0 e nota1 <= 20
+           Fimse
+
+           Leia nota2
+
+           Se nota1 < 0 ou nota1 > 20 entao
+                Repita
+                    Leia nota1
+                Ate nota1 > 0 e nota1 <= 20
+           Fimse
+
+           media = (nota1 + nota2)/2
+
+           Imprimir media
+    Fimalgoritmo

@@ -1,0 +1,6 @@
+Escreva um programa que mostre na tela a mensagem "Olá, Mundo!"
+
+->Objetivos: Exibir Olá, Mundo!
+->Parametrização:
+->Trajeto:
+    Imprima "Olá, Mundo!"

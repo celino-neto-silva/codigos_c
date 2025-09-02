@@ -1,0 +1,8 @@
+->Objetivo: Informar a Soma
+->Parametrização: -Numero inteiro ou decimal
+->Trajeto: Leia 1º numero
+           Leia 2º numero
+
+           Var soma = num1 + num2
+
+           Exibir soma

@@ -1,0 +1,37 @@
+Francisco tem 1,50m e cresce 2 centímetros por ano, enquanto Sara tem 1,10m e cresce 3 centímetros por ano.
+Faça um algoritmo que calcule e imprima na tela em quantos anos serão necessários para que Sara seja maior que Francisco
+
+->Objetivo: Informar a quantidade de anos que serão necessários para Sara ser mais alta que Francisco
+
+->Parametrização: -Altura de Sara
+                  -Centimetros crescidos por ano
+                  -Altura de Francisco
+                  -Centimetros crescidos por ano
+                  -Converter altura em metros para centimetros
+
+->Trajeto:  Var real altura_A
+            Var real altura_B
+
+            Leia altura de Sara
+            Leia altura de Francisco
+
+            Var inteiro taxa_sara = 3
+            Var inteiro taxa_francisco = 2
+
+            Var real altura_A_cm = altura_A * 100
+            Var real altura_B_cm = altura_b * 100
+
+            Var inteiro contador = 0
+            Var logico maior = falso
+
+            Repita
+                contador = contador + 1
+                altura_A_cm = altura_A_cm + taxa_sara
+                altura_B_cm = altura_B_cm + taxa_francisco
+
+                se altura_A_cm > altura_B_cm
+                    maior = verdadeiro
+                fimse
+            ate maior = verdadeiro
+
+            imprima "Em (contador) anos Sara vai ficar maior que Francisco"

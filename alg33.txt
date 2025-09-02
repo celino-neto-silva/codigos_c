@@ -1,0 +1,15 @@
+Faça um algoritmo que leia quanto dinheiro uma pessoa tem na carteira (em R$)
+e mostre quantos dólares ela pode comprar. Considere US$1,00 = R$3,45.
+
+->Objetivo: Informar o quanto de uma moeda estrangeira se pode comprar.
+
+->Parametrização: -Considerar 1€ = 5,5R$
+
+->Trajeto: Leia valor em real
+
+           euro = 5.5
+
+           valor em euro = real/euro
+
+
+           imprima valor em euro

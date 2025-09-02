@@ -1,0 +1,22 @@
+Numa promoção exclusiva para o Dia da Mulher, uma loja quer dar descontos
+para todos, mas especialmente para mulheres. Faça um programa que leia nome,
+sexo e o valor das compras do cliente e calcule o preço com desconto. Sabendo
+que:
+ - Homens ganham 5% de desconto
+ - Mulheres ganham 13% de desconto
+
+->Objetivo: Informar preço com desconto especial de dia das mulheres
+
+->Parametrização: - Homens ganham 5% de desconto
+                  - Mulheres ganham 13% de desconto
+
+->Trajeto: Leia preco
+           Leia sexo
+
+           Se sexo = M Entao
+                novo_preco = ((preco/100) X 5) + preco
+                Imprima novo_preco
+           Senao se sexo = F Entao
+                novo_preco = ((preco/100) X 13) + preco
+                Imprima novo_preco
+           Fimse

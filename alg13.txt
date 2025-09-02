@@ -1,0 +1,11 @@
+ Faça algoritmo que leia o nome e a idade de uma pessoa e imprima na tela o nome da pessoa e se ela é maior ou menor de idade.
+
+->Objetivo: Informar se uma pessoa é maior ou menor de idade
+->Parametrização: - 18 anos já é maioridade
+->Trajeto: ler nome
+           ler idade
+
+           se idade >= 18
+                informe que existe maioridade
+           senao
+                informe que não existe maioridade

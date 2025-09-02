@@ -1,0 +1,12 @@
+8) Desenvolva um programa que leia uma distância em metros e mostre os valores
+relativos em outras medidas.
+Ex:
+Digite uma distância em metros: 185.72
+
+->Objetivo: Informar as principais conversões de uma medida em metros
+
+->Parametrização: -De KM a mm multiplicar por 10
+                  -De mm a KM dividir por 10
+->Trajeto: Leia distancia
+
+            

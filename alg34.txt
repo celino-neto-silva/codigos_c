@@ -1,0 +1,19 @@
+Faça um algoritmo que leia a largura e altura de uma parede, calcule e
+mostre a área a ser pintada e a quantidade de tinta necessária para o serviço,
+sabendo que cada litro de tinta pinta uma área de 2metros quadrados.
+
+->Objetivo: Informar a área a ser pintada e quantidade de tinta necessária
+
+->Parametrização: - Área igual a: Base X Altura
+                  - Cada 1 metro de Base e Altura é o metro quadrado: m2
+                  - 1 Litro de tinta para cada 1m2
+
+->Trajeto: Leia Base
+           Leia Altura
+
+           Area = Base X Altura
+
+           Litros = Area / 2
+
+           Imprima Area
+           Imprima Litros

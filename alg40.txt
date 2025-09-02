@@ -1,0 +1,22 @@
+Escreva um programa para calcular a redução do tempo de vida de um
+fumante. Pergunte a quantidade de cigarros fumados por dias e quantos anos ele
+já fumou. Considere que um fumante perde 10 min de vida a cada cigarro. Calcule
+quantos dias de vida um fumante perderá e exiba o total em dias.
+
+->Objetivo: Informar em dias a redução do tempo de vida de um fumante
+
+->Parametrização: - 1 cigarro = 10min de vida
+                  - Qtd de cigarros fumados por dia
+                  - Qtd de anos fumando
+
+->Trajeto: Leia Qtd de Cigarro
+
+           Minutos por dia = Qtd de Cigarro * 10
+
+           Leia Qtd de Anos
+
+           Anos = Qtd de Anos * 365
+
+           Dias perdidos = ((Anos * Minutos por dia)/60)/24
+
+           Imprima Dias perdidos

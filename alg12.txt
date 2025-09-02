@@ -1,0 +1,24 @@
+
+Faça um algoritmo que leia o valor de um produto e determine o valor que deve ser pago, conforme a escolha da forma de pagamento
+pelo comprador e imprima na tela o valor final do produto a ser pago. Utilize os códigos da tabela de condições de pagamento para efetuar o cálculo adequado.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Tabela de Código de Condições de Pagamento
+ 1 - À Vista em Dinheiro ou Pix, recebe 15% de desconto
+ 2 - À Vista no cartão de crédito, recebe 10% de desconto
+ 3 - Parcelado no cartão em duas vezes, preço normal do produto sem juros
+ 4 - Parcelado no cartão em três vezes ou mais, preço normal do produto mais juros de 10%
+
+->Objetivo: Determinar o valor final de um produto baseado na forma de pagamento
+
+->Parametrização: -Pagamento dinheiro = 15% de desconto
+                  -Pagamento em pix = 15% de desconto
+                  -A vista no cartao de credito = 10% de desconto
+                  -Parcelado em 2 vezes = preço normal
+                  -Parcelado em 3 vezes ou mais = preço normal + juros de 10%
+
+->Trajeto:        Ler o preço do produto
+                  exibir ao usuário numeros associados a formas de pagamento
+                  Ler a opção escolhida através do numero
+
+                  verificar a forma de pagamento associada ao numero
+                  calcular o preço final de acordo com o parametro estabelecido da forma de pagamento

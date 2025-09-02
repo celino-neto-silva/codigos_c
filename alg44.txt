@@ -1,0 +1,24 @@
+Escreva um programa que leia o ano de nascimento de um rapaz e mostre a sua
+situação em relação ao alistamento militar.
+ - Se estiver antes dos 18 anos, mostre em quantos anos faltam para o
+alistamento.
+ - Se já tiver depois dos 18 anos, mostre quantos anos já se passaram do
+alistamento.
+
+->Objetivo: Informar quantos faltam para se alistar ou quantos anos se passaram do tempo de alistamento.
+->Parametrização: - Idade Mínima 18 anos
+                  - Ler ano de nascimento
+                  - Ler ano atual
+->Trajeto: Leia ano_nasc
+           Leia ano_atual
+
+           Idade = ano_atual - ano_nasc
+
+           Se Idade < 18 Entao
+                Tempo = 18 - Idade
+                Imprima "Faltam (Tempo) anos"
+           Senao
+                Tempo = Idade - 18
+                Imprima "Passaram (Tempo) anos"
+           Fimse
+

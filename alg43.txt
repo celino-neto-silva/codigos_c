@@ -1,0 +1,24 @@
+Faça um algoritmo que leia um determinado ano e mostre se ele é ou não
+BISSEXTO.
+
+->Objetivo: Informar se um ano é bissexto
+
+->Parametrização: - Um ano divisivel por 100 só é bissexto se for divisivel por 400
+                  - Um ano não divisivel por 100 só é bissexto se for divisivel por 4
+
+->Trajeto:  Leia Ano
+
+            Se Ano % 100 = 0 Entao
+                Se Ano % 400 = 0 Entao
+                    Imprima "É bissexto"
+                Senao
+                    Imprima "Não é bissexto"
+                Fimse
+            Senao
+               Se Ano % 4 = 0 Entao
+                    Imprima "É bissexto"
+               Senao
+                    Imprima "Não é bissexto"
+               Fimse
+            Fimse
+

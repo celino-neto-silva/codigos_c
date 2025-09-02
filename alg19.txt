@@ -1,0 +1,14 @@
+Faça um algoritmo que imprima na tela a tabuada de 1 até 10
+
+->Objetivo: Imprimir a Tabuada do número 1 ate o 10
+
+->Parametrização: -Para cada numero multiplicar o numero de 1 ate 10
+
+->Trajeto:  Var contador = 1
+
+            Enquanto contador <= 10 faca
+                Para c = 1 ate 10 faca
+                    imprima contador x c
+                Fimpara
+                contador = contador + 1
+            Fimenquanto

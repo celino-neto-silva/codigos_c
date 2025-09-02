@@ -1,0 +1,33 @@
+Desenvolva uma lógica que leia os valores de A, B e C de uma equação do
+segundo grau e mostre o valor de Delta.
+
+->Objetivo: Informar o valor de Delta
+->Parametrização: - Ler valor de A, B e C
+                  - Usar esses valores denro de uma equação de 2º grau.
+
+->Trajeto:
+         Enquanto True Faça
+            Leia A
+            Se A = 0 entao
+                Imprima "Inválido"
+                Imprima "Continuar? S / N"
+
+                Leia Resposta
+
+                Se Resposta = S entao
+                    Repita
+                        Leia A
+                    Ate A != 0
+                Senao
+                    Interrompa
+                Fimse
+
+                Leia B
+                Leia C
+
+                Delta = (b * b) - 4 * a * c
+
+                Imprima Delta
+            Fimse
+
+

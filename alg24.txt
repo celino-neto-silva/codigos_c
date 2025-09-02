@@ -1,0 +1,65 @@
+Faça um algoritmo que calcule a quantidade de litros de combustível gastos em uma viagem, sabendo que o carro faz 12km com um litro.
+Deve-se fornecer ao usuário: - O tempo que será gasto na viagem
+                             - A sua velocidade média,
+                             - Distância percorrida
+                             - A quantidade de litros utilizados para fazer a viagem.
+
+Fórmula: distância = tempo x velocidade.
+         litros usados = distância / 12
+
+->Objetivo: Informar ao usuario: 1º O tempo
+                                 2º A velocidade média
+                                 3º A distância percorrida
+                                 4º A quantidade de litros usados
+
+->Parametrização: -Quilometragem da viagem
+                  -Quilometro por litro
+                  -Distancia = tempo x velocidade
+                  -Velocidade = distancia / tempo
+                  -Horas de saída e horas de chegada
+
+->Trajeto: Leia Hora de partida
+           Leia Minuto Partida
+           Leia Dia da Partida
+           Leia Mes da Partida
+           Leia Ano da Partida
+
+           Leia Hora de chegada
+           Leia Minuto Chegada
+           Leia Dia da chegada
+           Leia Mes da chegada
+           Leia Ano da chegada
+
+           anos = 0
+           meses = 0
+           dias = 0
+           horas = 0
+           minutos = 0
+           total de horas em minutos= 0
+
+           Se Ano da Partida > Ano da Chegada
+                Imprima inválido
+           Fimse
+
+           Se Ano da Partida < Ano da Chegada ou Ano da Partida = Ano da Chegada
+                anos = Ano da Chegada - Ano da Partida
+
+                Se Mes da Partida < Mes da Chegada ou Mes da Partida > Mes da Chegada
+                    meses = (Mes da Chegada - Mes da Partida) * 30
+                Fimse
+
+                Se Dia da Partida < Dia da Chegada ou Dia da Partida > Dia da Chegada
+                    dias = Dia da Chegada - Dia da Partida
+                Fimse
+           Fimse
+
+           anos = anos + meses + dias
+
+           total de horas em minutos = anos * 24
+           horas = ((hora de chegada - hora de partida)*60)
+           minutos = minuto de chegada - minuto de partida
+
+           total de horas em minutos = total de horas em minutos + horas + minutos
+
+           Imprima anos
+           Imprima total de horas em minutos
