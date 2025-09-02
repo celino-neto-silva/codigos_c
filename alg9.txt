@@ -1,0 +1,14 @@
+ Faça um algoritmo que calcule o IMC (Índice de Massa Corporal) de uma pessoa, leia o seu peso e sua altura e imprima na tela sua condição
+
+ ->Objetivo: Informar ao usuário Índice de massa corporal (IMC) que ele possui
+ ->Parametrização: -Ler altura do usuário em metros
+                   -Classificar de acordo com as categorias
+                        1ª IMC menor que 18.5 = Abaixo do peso
+                        2ª IMC maior ou igual a 18.5 e menor que 25 = Peso Ideal
+                        3ª IMC acima de 25 = Fora do Ideal
+ ->Trajeto: -ler altura
+            -ler peso
+            -criar variavel imc
+            -inserir na variavel imc o resultado de peso/(altura)2
+            -verificar o imc com os parametros nas estruturas de condição
+            -exibir em qual parametro das estruturas de condição o imc se encaixa

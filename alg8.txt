@@ -1,0 +1,17 @@
+Faça um algoritmo que:
+-leia três valores inteiros diferentes
+-e imprima na tela
+-os valores em ordem decrescente
+
+->Objetivo: Imprimir em decrescente
+
+->Parametrização:
+  - Quant. 3
+  - Serem diferentes
+  - Serem numeros inteiros
+
+->Processamento
+    1º: Inserção
+    2º: Validação
+    3º: Ordenação
+    4º: Exibição

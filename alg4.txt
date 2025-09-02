@@ -1,0 +1,12 @@
+ Faça um algoritmo que receba um número inteiro e:
+-imprima na tela o seu antecessor
+-imprima na tela o seu sucessor
+
+inicio algoritmo
+    inteiro var num
+    leia num
+
+    imprima "Número: (num)"
+    imprima "Antecessor: (num-1)"
+    imprima "Sucessor: (num+1)"
+fim algoritmo

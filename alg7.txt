@@ -1,0 +1,19 @@
+Faça um algoritmo que:
+-leia dois valores booleanos (lógicos)
+-e determine se ambos são VERDADEIRO ou FALSO
+
+inicioalgoritmo
+    logico v1,v2
+
+    se(v1 = falso)
+        imprima "(v1) é Falso"
+    senao
+        imprima "(v1) é Verdadeiro"
+    fimse
+
+    se(v2 = falso)
+        imprima "(v2) é Falso"
+    senao
+        imprima "(v2) é Verdadeiro"
+    fimse
+fimalgoritmo

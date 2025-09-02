@@ -1,0 +1,13 @@
+Faça um algoritmo que leia o valor do salário mínimo e o valor do salário de um usuário:
+-calcule quantos salários mínimos esse usuário ganha
+-imprima na tela o resultado. (Base para o Salário mínimo R$ 1.293,20).
+
+inicio algoritmo
+    real sal_min, sal_user
+
+    sal_min = 870.00
+    leia sal_user
+
+    imprima "Você ganha: (sal_user/sal_min) salários minímos"
+
+fim algoritmo

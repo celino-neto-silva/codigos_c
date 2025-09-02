@@ -1,0 +1,17 @@
+Faça um algoritmo que leia três notas obtidas por um aluno, e imprima na tela a média das notas
+->Objetivo: Informar a média de um aluno
+
+->Parametrização: -Ler 3 notas
+                  -Ler valores decimais
+
+->Trajeto: Criar uma estrutura que receba as notas
+           Criar uma variavel que armazene a quantidade de notas pra receber
+           Criar uma variavel que armazene a media
+           Criar uma variavel que armazene a soma das notas
+
+           Ler as notas
+           Somar as notas
+           Dividir a soma pela quantidade
+
+           Exibir a media
+

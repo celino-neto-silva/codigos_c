@@ -1,0 +1,25 @@
+Faça um algoritmo que leia os valores de A, B, C e em seguida imprima na tela:
+-A soma entre A e B
+-E mostre se a soma é menor que C.
+
+inicio algoritmo
+    real var a,b,c,soma
+
+    leia a
+    leia b
+    leia c
+
+    var soma = a + b
+
+    se(soma < c)
+        imprima "A + B é menor que C"
+    senao
+        se(soma = c)
+            imprima "A + B é igual a C"
+        senao
+            imprima "A + B é maior que C"
+        fimse
+    fimse
+fimalgoritmo
+
+Obs: Posso criar uma função que soma, uma que compara e outra que responde.

@@ -1,0 +1,12 @@
+Faça um algoritmo que:
+-leia um valor qualquer
+-aplique um reajuste de 5%.
+-imprima na tela
+
+inicio algoritmo
+    real num
+
+    leia num
+
+    imprima ((num/100)*5)+num
+fimalgoritmo
