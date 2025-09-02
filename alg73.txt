@@ -1,0 +1,28 @@
+Faça um aplicativo que leia o preço de 8 produtos. No final, mostre na tela
+qual foi o maior e qual foi o menor preço digitados.
+
+->Objetivo: Informar O Maior e O Menor Preço
+->Parametrização: - Preço maior que 0
+                  - Preço do tipo Real
+->Trajeto:  Maior = 0
+            Menor = 0
+
+            Leia Preço
+
+            Maior = Preço
+            Menor = Preço
+
+            Para c = 1 ate 7 Faça
+                Leia Preço
+
+                Se Preço > Maior Entao
+                    Maior = Preço
+                Fimse
+
+                Se Preço < Menor Entao
+                    Menor = Preço
+                Fimse
+            Fimpara
+
+            Imprima Maior
+            Imprima Menor

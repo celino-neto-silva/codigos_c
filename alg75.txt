@@ -1,0 +1,30 @@
+Faça um programa que leia a idade e o sexo de 5 pessoas, mostrando no final:
+a) Quantos homens foram cadastrados
+b) Quantas mulheres foram cadastradas
+c) A média de idade do grupo
+d) A média de idade dos homens
+e) Quantas mulheres tem mais de 20 anos
+
+->Trajeto: Idade = 0
+           Qtd_m = 0
+           Qtd_f = 0
+           Mais_20 = 0
+           Soma = 0
+           Soma_m = 0
+           Media = 0
+           Media_m = 0
+
+           Para c = 1 ate 5 Faça
+                Leia Sexo
+                Leia idade
+
+                soma = soma + idade[c]
+
+                Se sexo = M Entao
+                    soma_m = soma_m + idade
+                    Qtd_m = Qtd_m + 1
+                Senao
+                    Qtd_f = Qtd_f + 1
+                Fimse
+           Fimpara
+

@@ -1,0 +1,32 @@
+Desenvolva um aplicativo que leia o peso e a altura de 7 pessoas, mostrando
+no final:
+a) Qual foi a média de altura do grupo
+b) Quantas pessoas pesam mais de 90Kg
+c) Quantas pessoas que pesam menos de 50Kg tem menos de 1.60m
+d) Quantas pessoas que medem mais de 1.90m pesam mais de 100Kg.
+
+->Trajeto: Para c = 1 ate 7 Faça
+                Leia Altura
+                Leia Peso
+
+                soma = soma + altura
+
+                Se peso > 90 Entao
+                    mais_90 = mais_90 + 1
+                Fimse
+
+                Se peso < 50 Entao
+                    Se altura < 1.60 Entao
+                        menos_50 = menos_50 + 1
+                    Fimse
+                Fimse
+
+                Se altura > 1.90 Entao
+                    Se peso > 100 Entao
+                        mais_100 = mais_100 + 1
+                    Fimse
+                Fimse
+           Fimpara
+
+           media = soma / 7
+           Imprima Media, mais_100, menos_50, mais_90

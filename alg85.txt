@@ -1,0 +1,38 @@
+Crie um programa usando a estrutura “faça enquanto” que leia vários números.
+A cada laço, pergunte se o usuário quer continuar ou não. No final, mostre na
+tela:
+
+a) O somatório entre todos os valores
+b) Qual foi o menor valor digitado
+c) A média entre todos os valores
+d) Quantos valores são pares
+
+->Trajeto: soma = 0
+           idade = 0
+           menor = 0
+           cont = 0
+           media = 0
+           cont_pares = 0
+           resp = 'S'
+
+           Enquanto resp = 'S' Faça
+                cont = cont + 1
+
+                Leia valor
+
+                Se cont = 1 Entao
+                    menor = valor
+                Fimse
+
+                Se valor % 2 = 0 Entao
+                    cont_pares = cont_pares + 1
+                Fimse
+
+                Se valor < menor Entao
+                    menor = valor
+                Fimse
+           Fimenquanto
+
+           media = soma / cont
+
+           Imprima media, soma, menor, cont_pares

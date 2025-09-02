@@ -1,0 +1,17 @@
+Crie um programa que preencha automaticamente um vetor numérico com 7
+números gerados aleatoriamente pelo computador e depois mostre os valores
+gerados na tela.
+
+->Trajeto:  taman = 7
+            nums = vetor de inteiro[taman]
+            num = 0
+
+            Para c = 1 ate taman Faca
+                num = aleatorio
+                nums[c] = num
+            Fimpara
+
+            Para c = 1 ate taman Faca
+                Imprima nums[c]
+            Fimpara
+

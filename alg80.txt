@@ -1,0 +1,28 @@
+Faça um algoritmo que leia a idade de vários alunos de uma turma. O programa
+vai parar quando for digitada a idade 999. No final, mostre quantos alunos
+existem na turma e qual é a média de idade do grupo.
+
+->Objetivo: Informar a: Qtd de alunos e a Média de idade deles
+->Parametrização: - Leia Idade
+                  - Idade = 999 para o programa
+->Trajeto: soma = 0
+           media = 0
+           idade = 0
+           qtd = 0
+
+           Enquanto verdadeiro Faça
+                Leia idade
+                Imprima "Para interromper digite 999"
+
+                Se idade == 999 Entao
+                    Interrompa
+                Senao
+                    soma = soma + idade
+                Fimse
+                qtd = qtd + 1
+           Fimenquanto
+
+           media = soma / qtd
+
+           Imprima qtd
+           Imprima media

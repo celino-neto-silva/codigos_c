@@ -1,0 +1,14 @@
+Faça um programa que preencha automaticamente um vetor numérico com 8
+posições, conforme abaixo:
+999 999 999 999 999 999 999 999
+
+->Trajeto:  taman = 8
+            nums = vetor de inteiro[taman]
+
+            Para c = 0 ate taman Faca
+                nums[c] = c
+            Fimpara
+
+            Para c = 0 ate taman Faca
+                Imprima nums[c]
+            Fimpara

@@ -1,0 +1,31 @@
+Desenvolva um aplicativo que leia o salário e o sexo de vários funcionários.
+No final, mostre o total de salários pagos aos homens e o total pago às
+mulheres. O programa vai perguntar ao usuário se ele quer continuar ou não
+sempre que ler os dados de um funcionário.
+
+->Objetivo: Informar o total de salário pago a funcionários
+->Parametrização: - Ler sexo
+                  - Ler salario
+                  - Ler se o usuario quer continuar ou não
+
+->Trajeto: Sexo = ' '
+           Resp = 'S'
+           Salario = 0
+           Total_m = 0
+           Total_f = 0
+
+           Repita
+                Leia Sexo
+                Leia Salario
+
+                Se Sexo = 'M' Entao
+                    Total_m = Total_m + Salario
+                Senao
+                    Total_f = Total_f + Salario
+                Fimse
+
+                Leia Resp
+           Ate(Resp = 'N')
+
+           Imprima Total_m
+           Imprima Total_f

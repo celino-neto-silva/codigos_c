@@ -1,0 +1,30 @@
+Desenvolva um programa que leia o primeiro termo e a razão de uma
+PA (Progressão Aritmética), mostrando na tela os 10 primeiros elementos da PA e
+a soma entre todos os valores da sequência.
+
+->Objetivo: 1º - Exibir 10 termos de uma progressão aritmética
+            2º - Exibir o somatório desses termos
+
+->Parametrização:   -Ler o 1º termo
+                    -Ler a razão
+                    -Razão maior que 0
+->Trajeto: Leia termo
+           Leia razao
+
+           Se razao  <= 0 Entao
+                Repita
+                    Leia razao
+                Ate(Razao > 0)
+           Fimse
+
+           soma = 0
+           pa = termo
+
+           Para c = 1 ate 10 Faça
+                pa = pa + razao
+                soma = soma + pa
+
+                Imprima pa
+           Fimpara
+
+           Imprima soma

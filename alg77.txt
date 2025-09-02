@@ -1,0 +1,28 @@
+Vamos melhorar o jogo que fizemos no exercício 32. A partir de
+agora, o computador vai sortear um número entre 1 e 10 e o jogador vai ter 4
+tentativas para tentar acertar.
+
+->Objetivo: Jogador acertar um numero entre 1 e 10
+
+->Parametrização: - Sortear um número entre 1 e 10
+                  - Sortear um número inteiro
+                  - O usuário vai ter 4 tentativas
+
+->Trajeto: num = randomizar(entre 0 e 10)
+           n = 0
+           c = 0
+
+           Enquanto True
+                c = c + 1
+
+                Leia n
+                Se n = num Entao
+                    Imprima "Acertou! (n) é o numero correto! "
+                    Interrompa
+                Fimse
+
+                Se c = 4 Entao
+                    Interrompa
+                Fimse
+           Fimenquanto
+

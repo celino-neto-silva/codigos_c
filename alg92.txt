@@ -1,0 +1,14 @@
+[DESAFIO] Faça um programa que mostre os 10 primeiros elementos da Sequência
+de Fibonacci:
+1 1 2 3 5 8 13 21...
+
+->Trajeto:  fib1 = 0
+            fib2 = 1
+            fib3 = 0
+
+            Para c = 0 ate 10 faca
+                Imprima fib2
+                fib3 = fib1 + fib2
+                fib1 = fib2
+                fib2 = fib3
+            Fimpara

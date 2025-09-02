@@ -1,0 +1,16 @@
+Desenvolva um programa que faça o sorteio de 20 números entre 0 e 10 e
+mostre na tela:
+a) Quais foram os números sorteados
+b) Quantos números estão acima de 5
+c) Quantos números são divisíveis por 3
+
+->Objetivo: Gerar 3 saídas: 1º Números sorteados, quais!
+                            2º Números acima de 5, quantos!
+                            3º Números divisíveis por 3, quantos!
+
+->Parametrização: - Sortear 20 numeros
+                  - Sortear numeros entre 0 e 10
+                  - Contar os numeros divisiveis por 3
+                  - Contar os numeros acima de 5
+
+->Trajeto: 

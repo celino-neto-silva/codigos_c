@@ -1,0 +1,15 @@
+Crie um programa que leia vários números pelo teclado e mostre no final o
+somatório entre eles.
+Obs: O programa será interrompido quando o número 1111 for digitado
+
+->Trajeto: n = 0
+           soma = 0
+
+           Repita
+                Leia n
+                Se n != 1111 Entao
+                    soma = soma + n
+                Fimse
+           Ate(n = 1111)
+
+           Imprima Soma
