@@ -1,0 +1,23 @@
+Vamos lá iniciar falando a respeito de ponteiros.
+"O que é um ponteiro?": É uma variável que guarda o endereço de outra variavel na memória
+
+"Onde se  localizam os ponteiros?": Os ponteiros são localizados na memória RAM assim como todos os outros dados, porém de forma mais aprofundada existe o
+ Compilador que é o recurso/veículo pelo qual o código de uma determinada linguagem é executada, o compilador é tem 2 campos de memória: Heap e a Stack
+ A stack é um espaço menor onde alguma parte do código se localiza, na stack as variaveis tem seu nome e conteúdo próximos, na heap é onde estão variaveis
+ globais, ponteiros e um espaço maior, elas atuam como se fossem memória cache dos CPU's, acima da meória heap temos a machine code
+
+ "Função dos ponteiros?": Os ponteiros são ferramentas poderosas nas quais devemos tomar muita atenção, pois elas mudam de forma permanente o conteúdo de alguma variavel
+
+ "Vantagens": 1º-Acessam diretamente a memória, muito utilizado para criação de estrutura de dados
+              2º-Passar valores por referencia ou seja aumenta o desempenho e eficiencia pois eu altero uum determinado valor a partir de uma função sem precisar
+              declarar variaveis a torto e a direito
+              3º-Alocação dinâmica de memória
+
+              int n = 25;
+              int *p = &n;
+
+                      n             p
+                      25            25
+              0001 | 0002 | 0003 | 0005 |
+                      4B            8B
+                
