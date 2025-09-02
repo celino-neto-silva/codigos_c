@@ -1,0 +1,27 @@
+->Desafio: Criar um programa que crie 2 pilhas com quantidade de elementos determinados pelo o utilizador, e que depois apresente 5 funcionalidades
+    1ª Informar qual pilha é maior OK
+    2ª Informar a qtd de elementos, a media aritmética e o maior elemento OK
+    3ª Exibir somente os números ímpares de uma pilha OK
+    4ª Exibir somente os números pares de uma pilha OK
+    5ª Trocar os elementos de uma pilha para a outra
+
+->Estratégia: Dividir em 2 partes: 1ª Parte: Criar as pilhas
+                                   2ª Parte: Criar as funcionalidades
+
+->Parte 1: OK
+->Objetivo: Criar 2 pilhas
+->Parametrização: - Alocação dinâmica de memória
+                  - Nº de elementos determinado pelo o utilizador
+                  - Elementos informados pelo o utilizador devem ser somente nºs inteiros
+                  - Dividir em 2 funções: 1. Criar_pilha()
+                                          2. Preencher_pilha()
+
+->Trajeto:  1º Criar objeto elemento
+            2º Criar objeto pilha
+
+            3º Criar 2 variaveis do tipo pilha
+            etc......
+
+->Parte 2:
+->Objetivo: Criar Funcionalidades
+

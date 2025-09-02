@@ -1,0 +1,14 @@
+4) Cadastre 5 números em uma fila dinâmica e mais 5 em uma pilha dinâmica. Em seguida, mostre
+três relatórios.
+
+A) Os números que estão nas duas estruturas.
+B) Os que estão na fila.
+C) Os que estão na pilha
+
+->Parte 1: 1.1 Criar uma fila
+           1.2 Criar uma pilha
+
+->Parametrização: - Alocação dinâmica
+                  - Recebe nº inteiro
+                  - Recolhe 5 vezes
+                  

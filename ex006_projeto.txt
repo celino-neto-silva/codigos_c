@@ -1,0 +1,39 @@
+->Desafio: Crie um sistema de gestão de avaliações de alunos.
+
+->Requisitos:  1º Criar um menu com 7 opções
+                    1- Cadastrar aluno
+                    2- Cadastrar nota
+                    3- Calcular a média de um aluno
+                    4- Listar os nomes dos alunos sem notas
+                    5- Excluir aluno
+                    6- Excluir nota
+                    7- Sair
+
+                2º Tratar cada opção individualmente definindo: O objetivo da funcionalidade e os requisitos de cada uma.
+
+->Trajeto:
+1º Definir estrutura de dados: 1. Para alunos: Pilha
+                                    - Deve receber nome do aluno
+                                    - Deve receber um ID de aluno
+
+                               Restrições: 1ª O ID deve ser atribuido de forma crescente!
+                                              (Onde o 1º aluno tem ID 1, o 2º O ID 2 ...)
+
+                               2. Para notas: Fila
+                                    - Deve receber um ID de aluno
+                                    - Deve receber a nota de um aluno
+
+                               Restrições: 1ª O aluno tem 3 notas para serem atribuídas
+                                           2ª A nota deve ser somente entre 0 e 10.
+
+2º Funcionalidade Cadastrar_alunos()
+->Objetivo: Criar uma função que cadastra na estrutura de alunos o ID e o nome do aluno.
+->Parametrização: - O ID deve ser gerado de forma crescente do 1 até n
+->Trajeto: Utilizar uma variavel global chamada ID_aluno
+
+3º Funcionalidade cadastrar_nota()
+->Objetivo: Criar uma função que cadastra na estrutura notas o ID e as notas do aluno
+->Parametrização:   - A estrutura notas é uma fila, ou seja, o 1º dado a entrar é o 1º a sair
+                    - Cada estudante tem 3 notas
+                    - Cada nota deve ser entre 0 e 10
+                    - Verificar se ID existe na estrutura alunos e se ID não está cadastrado na estrutura notas

@@ -1,0 +1,31 @@
+6) Apresente o menu de opções abaixo:
+
+1- Cadastrar aluno
+2- Cadastrar nota
+3- Calcular a média de um aluno
+4- Listar os nomes dos alunos sem notas
+5- Excluir aluno
+6- Excluir nota
+7- Sair
+
+Observações:
+
+a) Cadastre um aluno (número e nome) de cada vez em uma pilha. Os números dos alunos
+devem ser gerados automaticamente, partindo do nº 1.
+
+b) Cadastre uma nota (número do aluno e nota) de cada vez em uma fila. Uma nota só
+pode ser cadastrada se pertencer a um aluno cadastrado na pilha de alunos. Mostrar
+mensagem caso o aluno não esteja cadastrado. Valide as notas para que sejam digitadas
+no intervalo entre 0 e 10.
+
+c) O usuário deve digitar o número de aluno para exibir seu nome e sua respectiva média.
+Caso não existir o aluno ou não houver notas cadastradas para ele emitir mensagem de
+aviso ao usuário.
+
+d) Um aluno só pode ser excluído se não possuir notas. O usuário não deve escolher o
+aluno a ser excluído, pois deve obedecer às regras de funcionamento da estrutura de
+dados tipo pilha.
+
+e) As notas devem ser excluídas respeitando as regras de funcionamento de uma estrutura
+do tipo fila.
+
