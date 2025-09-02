@@ -1,0 +1,1 @@
+Iniciação em linguagem C, foco principalmente em aprendizado de estrutura de dados como: Pilhas, filas e listas ligadas.... Ainda em desenvolvimento, nada no modelo profissional mas com foco na aprendizagem 
