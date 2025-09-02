@@ -1,0 +1,45 @@
+81) Crie um programa que leia a idade de 8 pessoas e guarde-as em um vetor. No
+final, mostre:
+a) Qual é a média de idade das pessoas cadastradas
+b) Em quais posições temos pessoas com mais de 25 anos
+c) Qual foi a maior idade digitada (podem haver repetições)
+d) Em que posições digitamos a maior idade
+
+->Trajeto: taman = 8
+           idades[taman]
+           idade = 0
+           maior = 0
+           soma = 0
+           media = 0
+
+           para c = 1 ate taman faca
+                Leia idade
+                Se c == 1 entao
+                    maior = idade
+                Fimse
+
+                idades[c] = idade
+                soma = soma + idades[c]
+
+                Se idade > maior entao
+                    maior = idade
+                Fimse
+           fimpara
+
+           media = soma / taman
+
+           Imprima media
+           Imprima maior
+
+           para c = 1 ate taman faca
+                Se idades[c] > 25 entao
+                    Imprima "Na posição (c) maior que 25"
+                Fimse
+           fimpara
+
+           para c = 1 ate taman faca
+                Se idades[c] = maior entao
+                    Imprima "Maior na posição (c)"
+                Fimse
+           fimpara
+

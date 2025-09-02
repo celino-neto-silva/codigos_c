@@ -1,0 +1,31 @@
+[DESAFIO] Crie uma lógica que preencha um vetor de 20 posições com números
+aleatórios (entre 0 e 99) gerados pelo computador. Logo em seguida, mostre os
+números gerados e depois coloque o vetor em ordem crescente, mostrando no final
+os valores ordenados.
+
+->Trajeto: taman = 20
+           numeros[taman]
+
+           para c = 1 ate taman Faça
+                numeros[c] = aleatorio(Entre 0 e 99)
+           fimpara
+
+           para c = 1 ate taman Faça
+                Imprima numeros[c]
+           fimpara
+
+           aux = 0
+
+           para c = 1 ate taman - 1 Faça
+                para = c1 = c + 1 ate taman Faça
+                    Se c1 < c Entao
+                        aux = numeros[c]
+                        numeros[c] = numeros[c1]
+                        numeros[c1] = aux
+                    Fimse
+                fimpara
+           fimpara
+
+           para c = 1 ate taman Faça
+                Imprima numeros[c]
+           fimpara

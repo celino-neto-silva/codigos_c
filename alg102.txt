@@ -1,0 +1,38 @@
+Faça um algoritmo que preencha um vetor de 30 posições com números entre 1 e
+15 sorteados pelo computador. Depois disso, peça para o usuário digitar um
+número (chave) e seu programa deve mostrar em que posições essa chave foi
+encontrada. Mostre também quantas vezes a chave foi sorteada.
+
+->Trajeto: taman = 30
+           nums[taman]
+           n = 0
+           qtd_n = 0
+
+           para c = 1 ate taman faca
+                nums[c] = aleatorio(1, 15)
+           fimpara
+
+           resp = ''
+
+           Enquanto faça
+                Leia n
+
+                para c = 1 ate taman faca
+                    Se nums[c] = n entao
+                        Imprima "Na posição (c) está o numero (n)"
+                        qtd_n = qtd + 1
+                    Fimse
+                fimpara
+                Imprima "Quantidade de vezes que apareceu o numero (n) igual a: (qtd_n)"
+
+                leia "Continuar [S / N]?"
+
+                Se resp = 'N' entao
+                    Interrompa
+                Senao
+                    n = 0
+                    qtd_n = 0
+                Fimse
+           Fimenquanto
+
+

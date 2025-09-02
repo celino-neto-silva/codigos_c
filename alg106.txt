@@ -1,0 +1,20 @@
+Crie um programa que leia o nome e a idade de 9 pessoas e guarde esses
+valores em dois vetores, em posições relacionadas. No final, mostre uma listagem
+contendo apenas os dados das pessoas menores de idade
+
+->Trajeto: taman = 10
+
+           nomes[taman]
+           idades[taman]
+
+           Para c = 1 ate taman Faça
+                Leia nomes[c]
+                Leia idades[c]
+           Fimpara
+
+           Para c = 1 ate taman Faça
+                Se idades[c] < 18 Entao
+                    Imprima nomes[c]
+                    Imprima idades[c]
+                Fimse
+           Fimpara

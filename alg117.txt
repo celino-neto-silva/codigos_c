@@ -1,0 +1,15 @@
+Refaça o exercício 90, só que agora em forma de função Somador(), que vai
+receber dois parâmetros e vai retornar o resultado da soma entre eles para o
+programa principal.
+
+->Trajeto: Funcao somador(inteiro n1, inteiro n2)
+                s = n1 + n2
+                Retorne s
+           Fimfuncao
+           
+           Leia n1
+           Leia n2
+
+           soma = somador(n1, n2)
+
+           Imprima soma

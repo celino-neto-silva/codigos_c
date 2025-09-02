@@ -1,0 +1,16 @@
+Desenvolva um programa que leia 10 números inteiros e guarde-os em um vetor.
+No final, mostre quais são os números pares que foram digitados e em que
+posições eles estão armazenados.
+
+->Trajeto: taman = 10
+           nums[taman]
+
+           para c = 1 ate taman faca
+                Leia nums[c]
+           fimpara
+
+           para c = 1 ate taman faca
+                Se nums[c] % 2 = 0 Entao
+                    Imprima nums[c] na posicao c
+                Fimse
+           fimpara

@@ -1,0 +1,33 @@
+Faça um algoritmo que leia o nome, o sexo e o salário de 5 funcionários e
+guarde esses dados em três vetores. No final, mostre uma listagem contendo
+apenas os dados das funcionárias mulheres que ganham mais de R$5 mil.
+
+->Objetivo: Exibir uma listagem onde contem os dados das funcionárias que ganham mais de 5 mil
+
+->Parametrização: - Ler nome
+                  - Ler sexo
+                  - Ler salario
+                  - Criar um vetor para nome
+                  - Criar um vetor para sexo
+                  - Criar um vetor para salario
+                  - Ler dados 5 vezes
+
+->Trajeto: qtd_pessoas = 5
+
+           nomes[qtd_pessoas]
+           sexo[qtd_pessoas]
+           salarios[qtd_pessoas]
+
+           para c = 1 ate c = qtd_pessoas faca
+                leia nomes[c]
+                leia sexo[c]
+                leia salarios[c]
+           fimpara
+
+           para c = 1 ate c = qtd_pessoas faça
+                se sexo[c] = 'F' e salarios[c] > 5000 entao
+                    imprima nomes[c]
+                    imprima sexo[c]
+                    imprima salarios[c]
+                fimse
+           fimpara
