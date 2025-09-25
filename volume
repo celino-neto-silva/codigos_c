@@ -1,0 +1,46 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<stdint.h>
+
+const int cabecalho = 44;
+
+int main(int argc, char *argv[])
+{
+    if (argc != 4)
+    {
+        printf("Usage: ./volume input.wav output.wav factor\n");
+        return 1;
+    }
+
+    FILE *arqv_atual = fopen(argv[1],"r");
+    if (arqv_atual == NULL)
+    {
+        printf("Could not open file.\n");
+        return 1;
+    }
+
+    FILE *arqv_novo = fopen(argv[2],"w");
+    if (arqv_novo == NULL)
+    {
+        printf("Could not open file.\n");
+        return 1;
+    }
+
+    float factor = atof(argv[3]);
+    //Copiando o cabeçalho
+    uint8_t letra[cabecalho];
+    fread(letra, sizeof(uint8_t), cabecalho, arqv_atual);
+    fwrite(letra, sizeof(uint8_t), cabecalho, arqv_novo);
+    //Terminou a cópia do cabeçalho
+
+    //Copiando o resto e acrescentando a modificação
+    int16_t amostra;
+    while(fread(&amostra, sizeof(int16_t), 1, arqv_atual) != 0)
+    {
+        amostra = amostra * factor;
+        fwrite(&amostra, sizeof(int16_t), 1, arqv_novo);
+    }
+
+    fclose(arqv_atual);
+    fclose(arqv_novo);
+}
